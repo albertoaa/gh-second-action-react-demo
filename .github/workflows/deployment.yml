@@ -1,6 +1,6 @@
 # Github Actions workflow to run tests
 name: Deploy Project
-on: push
+on: [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
